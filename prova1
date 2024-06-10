@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sito Personale</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #6c7ae0;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #505050;
+        }
+        nav a {
+            color: white;
+            padding: 1em;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #6c7ae0;
+        }
+        main {
+            padding: 2em;
+        }
+        section {
+            margin-bottom: 2em;
+        }
+        h2 {
+            color: #6c7ae0;
+        }
+        footer {
+            background-color: #505050;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Benvenuti nel mio sito personale</h1>
+    </header>
+    <nav>
+        <a href="#musica">Musica</a>
+        <a href="#libri">Libri</a>
+        <a href="#libro">Il Mio Libro</a>
+    </nav>
+    <main>
+        <section id="musica">
+            <h2>I Miei Gusti Musicali</h2>
+            <p>Amo la musica in generale, seguo un numero enorme di generi musicali, artisti italiani e internazionali, preferisco in genere la musica che è stata prodotta negli anni 70 e 80 rispetto alla musica più recente. Trovo la musica attuale, fatte salve rare eccezioni, brutta, priva di stile e soprattutto carente di strumenti veri come il pianoforte e la chitarra.</p>
+            <p>Tra gli italiani sono profondamente interessato al percorso artistico di Franco Battiato, e trovo che alcune interpretazioni di Alice siamo davvero molto belle. Mi piacciono molto anche i cantautori "classici" Lucio Dalla, De Gregori, Guccini... fino al grandissimo De André.</p>
+            <p>Sul piano internazionale devo segnalare la musica rock progressive degli anni 70 come Genesis, Camel, Van Der Graf Generator, ... fino ad arrivare ai grandissimi Pink Floyd che non possono essere rinchiusi in un solo stile musicale. Mi piace anche lo smooth jazz, non disprezzo la musica pop anni 80, ecc.</p>
+        </section>
+        <section id="libri">
+            <h2>Le Mie Preferenze Letterarie</h2>
+            <p>Adoro leggere e i miei autori preferiti spaziano tra vari generi. Mi piacciono sia i classici della letteratura che i romanzi di fantascienza e i thriller. Alcuni dei miei autori preferiti includono...</p>
+            <!-- Aggiungi qui un elenco dei tuoi autori e libri preferiti -->
+        </section>
+        <section id="libro">
+            <h2>Il Mio Libro</h2>
+            <h3>Titolo: Da determinare</h3>
+            <p>Il libro è un breve romanzo di fantascienza che tratta di un ritrovamento da parte di un giovane ricercatore dell'Università di Roma, che in Egitto trova un manoscritto e un manufatto databili a migliaia di anni fa e che sono visibilmente provenienti da una civiltà aliena. Il romanzo si svolge in 2 epoche, quella del manoscritto e nell'epoca moderna, il manoscritto e il suo contenuto sono la cerniera che unisce il filo narrativo.</p>
+            <!-- Aggiungi qui ulteriori dettagli sul libro se necessario -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Il Mio Nome. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>
